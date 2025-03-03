@@ -1,9 +1,16 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
+<resources>
     <style name="Base.Theme.PizzaParty" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackground">#F0F0FF</item>
+        <item name="android:textColor">#FF6200EE</item>
+        <item name="android:textSize">24sp</item>
     </style>
 
-    <style name="Theme.PizzaParty" parent="Base.Theme.PizzaParty" />
+    <style name="Theme.PizzaParty" parent="Base.Theme.PizzaParty">
+        <item name="colorPrimary">@color/dark_blue</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:colorBackground">@color/light_blue</item>
+        <item name="android:textColor">@color/baby_blue</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
 </resources>
